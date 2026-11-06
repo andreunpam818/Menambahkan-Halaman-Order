@@ -39,11 +39,11 @@
                 </nav>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                @yield('content')
-            </div>
-        </div>
+        <main class="main-content">
+             @yield('content')
+        </main>
+
+                </div>
     </div>
 
 
